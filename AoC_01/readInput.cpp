@@ -3,7 +3,7 @@
 
 void readVectorFromFile(std::vector<int> &temp) {
 	std::ifstream infile;
-	infile.open("..\\..\\input.txt");
+	infile.open("input.txt");
 
 	if (infile.fail()) {
 		std::cout << "Could not open file numbers." << "\n";

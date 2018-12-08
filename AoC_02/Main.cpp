@@ -8,7 +8,7 @@
 int main() {
 
 	/* Day 2 part 1 :
-		- Find exactly repeated chars in one string: 2x anf 3x repetition per string. 
+		- Find exactly repeated chars in one string: 2x anf 3x repetition per string.
 		- Count Checksum of these:
 		checksum = checkTwo * checkThree
 	*/
@@ -28,7 +28,7 @@ int main() {
 			checkHash[letter] = checkHash[letter] + 1;
 		}
 		for (auto const&x : checkHash) {
-			if (x.second == 2 && bTwoAlready ==false){
+			if (x.second == 2 && bTwoAlready == false) {
 				checkTwo++;
 				bTwoAlready = true;
 			}
@@ -47,7 +47,9 @@ int main() {
 	*/
 	for (std::vector<std::string>::iterator i = myInput.begin(); i != myInput.end(); i++) {
 		for (std::vector<std::string>::iterator j = myInput.begin() + 1; j != myInput.end(); j++) {
-
+			if (j > i){
+			break;
+			}
 			std::string string1 = *i;
 			std::string string2 = *j;
 
@@ -70,7 +72,7 @@ int main() {
 				}
 		}
 	}
-
+	std::cout << "Finished" << std::endl;
 	std::cin.get();
 	return 0;
 }
