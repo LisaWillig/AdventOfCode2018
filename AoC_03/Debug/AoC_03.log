@@ -1,1 +1,7 @@
-﻿  AoC_03.vcxproj -> C:\Coding\AdventOfCode\AdventOfCode2018\Debug\AoC_03.exe
+﻿  main.cpp
+c:\coding\adventofcode\adventofcode2018\aoc_03\main.cpp(74): warning C4018: '<': signed/unsigned mismatch
+c:\coding\adventofcode\adventofcode2018\aoc_03\main.cpp(83): warning C4018: '<': signed/unsigned mismatch
+c:\coding\adventofcode\adventofcode2018\aoc_03\main.cpp(84): warning C4018: '<': signed/unsigned mismatch
+c:\coding\adventofcode\adventofcode2018\aoc_03\main.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\coding\adventofcode\adventofcode2018\aoc_03\main.cpp(20): warning C4101: 'sizes': unreferenced local variable
+  AoC_03.vcxproj -> C:\Coding\AdventOfCode\AdventOfCode2018\Debug\AoC_03.exe
